@@ -1,0 +1,10 @@
+
+Todo:
+   ☐ Design de l'application
+    faite le design de l'application
+    création de chaque wigdet de la maquette en dart
+  ☐ Intégration des base de données
+  connection des bases de données nécessaires
+  
+
+
