@@ -1,5 +1,7 @@
+import 'connexion.dart';
 import 'package:flutter/material.dart';
 
+const d_red = const Color(0xFFE97170);
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Boussole d\'orientation',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: const Scaffold(),
+      home: connexionPage(),
     );
   }
 }
